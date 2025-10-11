@@ -1,4 +1,8 @@
-import curtainsImg from "../assets/images/gallery/p5.jpg";
+import curtainsImg from "../assets/images/gallery/p7.jpg";
+import customCurtainsImg from "../assets/images/gallery/p5.jpg";
+import blindsImg from "../assets/images/gallery/p14.jpg";
+import wallpaperImg from "../assets/images/hero/1.jpg";
+import sofaFabricImg from "../assets/images/gallery/p2.jpg";
 
 const productsdata = [
   {
@@ -25,7 +29,7 @@ const productsdata = [
     name: "Customized Curtains",
     slug: "customized-curtains",
     quote: "Tailored to perfection, crafted for you.",
-    img: curtainsImg,
+    img: customCurtainsImg,
     description: `Our customized curtain service is designed for homeowners who
     seek exclusivity and personalization. Unlike ready-made options, these
     curtains are crafted to perfectly match your windows, interiors, and
@@ -46,7 +50,7 @@ const productsdata = [
     name: "Blinds",
     slug: "blinds",
     quote: "Modern design, perfect light control.",
-    img: curtainsImg,
+    img: blindsImg,
     description: `Blinds are the ultimate solution for modern living spaces that
     require elegance, privacy, and functional design. Our blinds come in
     a variety of styles including roller, Roman, Venetian, and vertical,
@@ -66,7 +70,7 @@ const productsdata = [
     name: "Wallpapers",
     slug: "wallpapers",
     quote: "Walls that speak your style.",
-    img: curtainsImg,
+    img: wallpaperImg,
     description: `Wallpapers are the canvas of your interiors, setting the tone
     and mood for your entire space. Our premium wallpaper collection offers
     a diverse range of patterns, textures, and finishes—from subtle,
@@ -86,7 +90,7 @@ const productsdata = [
     name: "Sofa Fabric",
     slug: "sofa-fabric",
     quote: "Luxury and comfort woven together.",
-    img: curtainsImg,
+    img: sofaFabricImg,
     description: `The fabric you choose for your sofa defines not only its
     comfort but also the personality of your living room. Our premium sofa
     fabrics are carefully curated to combine durability, texture, and

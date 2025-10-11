@@ -29,7 +29,7 @@ const products = [
   { title: "Curtains", slug: "curtains" },
   { title: "Customized Curtains", slug: "customized-curtains" },
   { title: "Blinds", slug: "blinds" },
-  { title: "Wallpaper", slug: "wallpaper" },
+  { title: "Wallpapers", slug: "wallpaper" },
   { title: "Sofa Fabric", slug: "sofa-fabric" },
 ];
 
