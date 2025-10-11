@@ -11,7 +11,7 @@ const FloatingButtons = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-4">
+    <div className="fixed bottom-6 right-3 z-50 flex flex-col items-center gap-4">
       {/* Floating Buttons */}
       <AnimatePresence>
         {isOpen && (
@@ -59,8 +59,8 @@ const FloatingButtons = () => {
       <div className="relative">
         {/* Animated Rings */}
         <span className="absolute inset-0 rounded-full bg-red-400 animate-ping-slow"></span>
-        <span className="absolute inset-0 rounded-full bg-red-200 animate-ping-slower"></span>
-        <span className="absolute inset-0 rounded-full bg-white/70 animate-ping-slowest"></span>
+        {/* <span className="absolute inset-0 rounded-full bg-red-200 animate-ping-slower"></span>
+        <span className="absolute inset-0 rounded-full bg-white/70 animate-ping-slowest"></span> */}
 
         <motion.button
           onClick={toggleButtons}
