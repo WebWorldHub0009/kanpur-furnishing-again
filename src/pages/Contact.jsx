@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 // import MapSection from "../components/MapSection";
 import bg from "../assets/images/hero/1.jpg"
+import MapSection from "../components/MapSection";
 
 const products = [
   { title: "Customize Curtains", slug: "customize-curtains" },
@@ -199,9 +200,10 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* <MapSection /> */}
+      <MapSection/>
     </>
   );
 };
 
 export default Contact;
+

@@ -124,20 +124,27 @@ export default function FooterKanpur() {
           </ul>
 
           {/* Email Heading Below Quick Links */}
-          <div className="mt-8">
-            <h4
-              className="text-2xl font-semibold mb-2"
-              style={{ color: colors.maroon }}
-            >
-              Email
-            </h4>
-            <a
-              href="mailto:Info@kanpurfurnishing.in"
-              className="text-gray-800 hover:text-[#D4AF37] transition duration-300"
-            >
-              Info@kanpurfurnishing.in
-            </a>
-          </div>
+         <div className="mt-8">
+  <h4
+    className="text-2xl font-semibold mb-2"
+    style={{ color: colors.maroon }}
+  >
+    Email
+  </h4>
+  <a
+    href="mailto:Info@kanpurfurnishing.in"
+    className="text-gray-800 hover:text-[#D4AF37] transition duration-300 block"
+  >
+    Info@kanpurfurnishing.in
+  </a>
+  <a
+    href="mailto:Kanpurfurnishing@gmail.com"
+    className="text-gray-800 hover:text-[#D4AF37] transition duration-300 block"
+  >
+    Kanpurfurnishing@gmail.com
+  </a>
+</div>
+
         </div>
 
         {/* Products Section */}
