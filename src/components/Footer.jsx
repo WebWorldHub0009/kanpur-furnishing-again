@@ -173,7 +173,7 @@ export default function FooterKanpur() {
             Kanpur, Uttar Pradesh 208007
           </address>
 
-          {["+91 9792302099"].map((num, i) => (
+          {["+918299334764"].map((num, i) => (
             <p key={i} className="text-sm mb-2 flex items-center gap-2">
               <FaPhoneAlt style={{ color: colors.gold }} />
               <a
